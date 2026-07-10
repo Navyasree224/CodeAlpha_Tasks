@@ -1,0 +1,199 @@
+/* ===========================
+   Main Background
+=========================== */
+
+.stApp{
+    background-color:#AFEEEE;
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+[data-testid="stSidebar"]{
+    background:#6495ED;
+}
+
+[data-testid="stSidebar"] *{
+    color:white;
+}
+
+/* ===========================
+   Main Title
+=========================== */
+
+.main-title{
+    color:#0F4C81;
+    font-size:40px;
+    font-weight:bold;
+}
+
+/* ===========================
+   Cards
+=========================== */
+
+.card{
+    background:#FFFFFF;
+    padding:22px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 28px rgba(0,0,0,0.20);
+}
+
+/* ===========================
+   Login Card
+=========================== */
+
+.login-card{
+    background:#FFFFFF;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.stButton>button{
+    width:100%;
+    background:#6495ED;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:12px;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.3s;
+}
+#16A085
+.stButton>button:hover{
+    background:#6495ED;
+    transform:scale(1.03);
+}
+
+/* ===========================
+   Input Boxes
+=========================== */
+
+.stTextInput input{
+    border-radius:10px;
+    border:2px solid #16A085;
+    color:#2C3E50;
+}
+
+/* ===========================
+   Metrics
+=========================== */
+
+[data-testid="metric-container"]{
+    background:#FFFFFF;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.12);
+}
+
+/* ===========================
+   DataFrame
+=========================== */
+
+.stDataFrame{
+    background:white;
+    border-radius:15px;
+}
+
+/* ===========================
+   Tables
+=========================== */
+
+table{
+    border-radius:12px;
+}
+
+/* ===========================
+   Success
+=========================== */
+
+.stAlert{
+    border-radius:12px;
+}
+
+/* ===========================
+   Heart Animation
+=========================== */
+
+.heart{
+    color:#E53935;
+    animation:heartbeat 1.2s infinite;
+}
+
+@keyframes heartbeat{
+
+0%{
+transform:scale(1);
+}
+
+25%{
+transform:scale(1.15);
+}
+
+50%{
+transform:scale(1);
+}
+
+75%{
+transform:scale(1.15);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+/* ===========================
+   Titles
+=========================== */
+
+h1,h2,h3{
+    color:#0F4C81;
+}
+
+/* ===========================
+   Text
+=========================== */
+
+p,li,label{
+    color:#2C3E50;
+}
+
+/* ===========================
+   Sidebar Buttons
+=========================== */
+
+[data-testid="stSidebar"] .stButton>button{
+    background:#5B7FE8;
+    color:white;
+    border-radius:10px;
+    margin-bottom:8px;
+    border:none;
+}
+
+[data-testid="stSidebar"] .stButton>button:hover{
+    background:#16A085;
+    color:white;
+}
+
+/* ===========================
+   Divider
+=========================== */
+
+hr{
+    border:1px solid #BFDFFF;
+}
